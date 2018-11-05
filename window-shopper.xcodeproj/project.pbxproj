@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		4C7E94B52190CB7C00635C64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E94B42190CB7C00635C64 /* AppDelegate.swift */; };
-		4C7E94B72190CB7C00635C64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E94B62190CB7C00635C64 /* ViewController.swift */; };
+		4C7E94B72190CB7C00635C64 /* WindowShopperMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E94B62190CB7C00635C64 /* WindowShopperMainVC.swift */; };
 		4C7E94BA2190CB7C00635C64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C7E94B82190CB7C00635C64 /* Main.storyboard */; };
 		4C7E94BC2190CB7C00635C64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C7E94BB2190CB7C00635C64 /* Assets.xcassets */; };
 		4C7E94BF2190CB7C00635C64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C7E94BD2190CB7C00635C64 /* LaunchScreen.storyboard */; };
+		4C7E94C72190CC4800635C64 /* MeinTextFeld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E94C62190CC4800635C64 /* MeinTextFeld.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4C7E94B12190CB7C00635C64 /* window-shopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "window-shopper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C7E94B42190CB7C00635C64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4C7E94B62190CB7C00635C64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C7E94B62190CB7C00635C64 /* WindowShopperMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowShopperMainVC.swift; sourceTree = "<group>"; };
 		4C7E94B92190CB7C00635C64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C7E94BB2190CB7C00635C64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C7E94BE2190CB7C00635C64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C7E94C02190CB7C00635C64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C7E94C62190CC4800635C64 /* MeinTextFeld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeinTextFeld.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				4C7E94B42190CB7C00635C64 /* AppDelegate.swift */,
-				4C7E94B62190CB7C00635C64 /* ViewController.swift */,
+				4C7E94B62190CB7C00635C64 /* WindowShopperMainVC.swift */,
 				4C7E94B82190CB7C00635C64 /* Main.storyboard */,
 				4C7E94BB2190CB7C00635C64 /* Assets.xcassets */,
 				4C7E94BD2190CB7C00635C64 /* LaunchScreen.storyboard */,
 				4C7E94C02190CB7C00635C64 /* Info.plist */,
+				4C7E94C62190CC4800635C64 /* MeinTextFeld.swift */,
 			);
 			path = "window-shopper";
 			sourceTree = "<group>";
@@ -136,7 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C7E94B72190CB7C00635C64 /* ViewController.swift in Sources */,
+				4C7E94C72190CC4800635C64 /* MeinTextFeld.swift in Sources */,
+				4C7E94B72190CB7C00635C64 /* WindowShopperMainVC.swift in Sources */,
 				4C7E94B52190CB7C00635C64 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
