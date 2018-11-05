@@ -31,7 +31,7 @@ class MeinTextFeld: UITextField {
         
         layer.cornerRadius = 5
         
-        //rollback and radius
+        //zweiter bracnh mit rollback
 
     }
 
