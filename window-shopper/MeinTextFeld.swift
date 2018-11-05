@@ -31,7 +31,7 @@ class MeinTextFeld: UITextField {
         
         layer.cornerRadius = 5
         
-        sö dlfskjfölsasdfajgöklgdfg jdkgj skj 
+        //code funtioniert wieder
     }
 
     
