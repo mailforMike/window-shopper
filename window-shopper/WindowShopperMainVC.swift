@@ -27,7 +27,7 @@ class WindowShopperMainVC: UIViewController {
     }
 
     @objc func berechnen(){
-        print("button pressed")
+        print("button pressed !!!!")
     }
 
 
