@@ -31,8 +31,7 @@ class MeinTextFeld: UITextField {
         
         layer.cornerRadius = 5
         
-        //master
-
+        
     }
 
     
