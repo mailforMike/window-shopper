@@ -11,6 +11,11 @@ import UIKit
 class WindowShopperMainVC: UIViewController {
 
     @IBOutlet weak var textfeld: MeinTextFeld!
+    @IBOutlet weak var tage: UILabel!
+    
+    @IBOutlet weak var label2: UILabel!
+    @IBOutlet weak var textfeld2: MeinTextFeld!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,10 +29,29 @@ class WindowShopperMainVC: UIViewController {
         calcButton.addTarget(self, action: #selector(WindowShopperMainVC.berechnen), for: .touchUpInside)
         
         textfeld.inputAccessoryView = calcButton
+        textfeld2.inputAccessoryView = calcButton
+        
+        tage.isHidden = true
+        label2.isHidden = true
     }
-
+    @IBAction func clear(_ sender: Any) {
+        
+        textfeld2.text = ""
+        textfeld.text = ""
+        tage.isHidden = true
+        label2.isHidden = true
+        
+    }
+    
     @objc func berechnen(){
-        print("button pressed !!!!")
+        if let preis = Double(textfeld.text!), let gehalt = Double(textfeld2.text!){
+            view.endEditing(true)
+            tage.text = "\(Wage.calcwage(preis: preis, gehalt: gehalt))"
+            tage.isHidden = false
+            label2.isHidden = false
+            
+        }
+        
     }
 
 

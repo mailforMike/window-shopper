@@ -37,23 +37,74 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Preis" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Pzr-qH-2H3" customClass="MeinTextFeld" customModule="window_shopper" customModuleProvider="target">
+                                <rect key="frame" x="20" y="250" width="335" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="C73-7X-GsC"/>
+                                    <constraint firstAttribute="height" constant="50" id="SO0-9r-caJ"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="33" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="41x-It-rmy">
+                                <rect key="frame" x="157" y="320" width="62.5" height="62.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="52"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tage" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dCx-Nq-P4X">
+                                <rect key="frame" x="172.5" y="386.5" width="31.5" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="17" id="h6h-au-KeD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xze-80-g0d">
+                                <rect key="frame" x="12" y="625" width="351" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="HL8-nw-0YP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="clear text">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="clear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C0z-V3-68a"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="dCx-Nq-P4X" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1C9-ai-Mka"/>
                             <constraint firstItem="XYO-Gw-nuo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Blk-cW-MjA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="xze-80-g0d" secondAttribute="bottom" constant="12" id="Bqf-7s-NMq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xze-80-g0d" secondAttribute="trailing" constant="12" id="CP5-6m-iF4"/>
+                            <constraint firstItem="dCx-Nq-P4X" firstAttribute="top" secondItem="41x-It-rmy" secondAttribute="bottom" constant="4" id="Css-Oj-Ciw"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XYO-Gw-nuo" secondAttribute="trailing" id="GeF-ho-ZfT"/>
+                            <constraint firstItem="Pzr-qH-2H3" firstAttribute="width" secondItem="Ype-n6-oCj" secondAttribute="width" id="GhD-dC-R3y"/>
                             <constraint firstItem="QEn-zO-7Ef" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LYl-fb-f0j"/>
+                            <constraint firstItem="Pzr-qH-2H3" firstAttribute="top" secondItem="Ype-n6-oCj" secondAttribute="bottom" constant="30" id="RuM-QS-HD1"/>
+                            <constraint firstItem="41x-It-rmy" firstAttribute="top" secondItem="Pzr-qH-2H3" secondAttribute="bottom" constant="20" id="UCI-mq-wVk"/>
                             <constraint firstItem="XYO-Gw-nuo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="VwF-xb-8Tf"/>
+                            <constraint firstItem="Pzr-qH-2H3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fMZ-ko-sT5"/>
                             <constraint firstItem="QEn-zO-7Ef" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="jE4-bK-WB2"/>
                             <constraint firstItem="Ype-n6-oCj" firstAttribute="top" secondItem="QEn-zO-7Ef" secondAttribute="bottom" constant="50" id="mUA-5R-LBv"/>
+                            <constraint firstItem="xze-80-g0d" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="12" id="rI6-cX-GQn"/>
                             <constraint firstItem="Ype-n6-oCj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="s2e-fc-kbD"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="XYO-Gw-nuo" secondAttribute="bottom" id="skA-li-aUS"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ype-n6-oCj" secondAttribute="trailing" constant="20" id="ud8-Et-eot"/>
+                            <constraint firstItem="41x-It-rmy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="y1K-s3-fGc"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="label2" destination="dCx-Nq-P4X" id="Ttl-P1-9ZW"/>
+                        <outlet property="tage" destination="41x-It-rmy" id="AmP-F3-weV"/>
                         <outlet property="textfeld" destination="Ype-n6-oCj" id="DSI-vm-OUz"/>
+                        <outlet property="textfeld2" destination="Pzr-qH-2H3" id="poI-GV-PVq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
